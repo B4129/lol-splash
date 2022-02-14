@@ -1,4 +1,4 @@
-const lol = () =>  {
- return 'initial commit'
-}
+import {api} from "./api";
+
+const lol = () =>  api
 export default lol;
