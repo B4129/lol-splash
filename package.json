@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "build": "tsc --build",
-    "prepublishOnly": "npm run build && npm version patch && git push origin",
+    "prepublishOnly": "npm run build && npm version patch && git push origin --follow-tags",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
