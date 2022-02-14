@@ -1,0 +1,28 @@
+{
+  "name": "lol-splash",
+  "version": "0.0.0",
+  "description": "League of Legends Splash Art API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B4129/lol-splash.git"
+  },
+  "keywords": [
+    "lol",
+    "League",
+    "of",
+    "legends",
+    "splash",
+    "art",
+    "API"
+  ],
+  "author": "b4129 <b4129@oic.jp>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/B4129/lol-splash/issues"
+  },
+  "homepage": "https://github.com/B4129/lol-splash#readme"
+}
