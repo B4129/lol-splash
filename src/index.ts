@@ -1,4 +1,4 @@
 const lol = () =>  {
  return 'initial commit'
 }
-module.exports = lol ;
+export default lol;
