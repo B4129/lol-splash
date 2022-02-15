@@ -1,6 +1,6 @@
 {
   "name": "lol-splash",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "League of Legends Splash Art API",
   "main": "index.js",
   "types": "index.d.ts",
