@@ -2,12 +2,13 @@
   "compilerOptions": {
     "target": "es5",
     "lib": ["es2018"],
-    "module": "commonjs",
+    "module": "es2020",
     "strict": true,
     "esModuleInterop": true,
     "outDir": "dist",
     "sourceMap": true,
-    "declaration": true
+    "declaration": true,
+    "moduleResolution": "node"
   },
   "include": [
     "src"
