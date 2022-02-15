@@ -1,4 +1,4 @@
-import {api} from "./api";
 
-const lol = () =>  api
-export default lol;
+import {champion} from "./champions";
+export const lol = () =>  ({champion})
+
