@@ -1,13 +1,13 @@
-import {findBy, findAll} from "../fetch/skins";
+import {findBy, findAll} from '../fetch/skins';
 
 
 export const champion = (name: ChampionName) => (
-    {
-        name,
-        skin: (id?: string | number) => findBy(name, id),
-        images: findAll,
-    }
-    )
+  {
+    name,
+    skin: (id?: string | number) => findBy(name, id),
+    images: findAll,
+  }
+);
 
 export type ChampionName =
 'Aatrox'|
