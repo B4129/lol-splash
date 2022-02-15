@@ -2,8 +2,10 @@
   "name": "lol-splash",
   "version": "0.0.4",
   "description": "League of Legends Splash Art API",
-  "main": "src/index.ts",
+  "main": "index.js",
+  "types": "index.d.ts",
   "scripts": {
+    "start": "node src/index.js",
     "build": "tsc --build",
     "prepublishOnly": "npm run build && npm version patch && git push origin --follow-tags",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,6 +29,8 @@
   "homepage": "https://github.com/B4129/lol-splash#readme",
   "dependencies": {
     "@types/node": "^17.0.17",
+    "axios": "^0.26.0",
+    "ts-node": "^10.5.0",
     "typescript": "^4.5.5"
   }
 }

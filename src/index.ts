@@ -1,4 +1,4 @@
-const lol = () =>  {
- return 'initial commit'
-}
-export default lol;
+
+import {champion} from "./champions";
+export const lol = () =>  ({champion})
+
